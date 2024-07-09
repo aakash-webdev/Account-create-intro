@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--===== Google Fonts CDN =====-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--===== Font Awesome CDN =====-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--===== CSS =====-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Main starts here -->
+    <main>
+
+        <div class="create_page">
+
+            <!-------------- Left Part starts here -------------->
+            <div class="left_part">
+
+                <div class="left_title">
+                    <h1>Create<br>an<br>account</h1>
+                </div>
+                <div class="scroll_icon">
+                </div>
+            </div>
+            <!-------------- Left Part ends here -------------->
+
+
+            <!-------------- Right Part starts here -------------->
+            <div class="right_part">
+
+
+
+                <div class="right_title">
+                    <h2>Create an account</h2>
+                </div>
+
+                <!-- Form starts here -->
+                <form action="#" id="main_form" onsubmit="validateForm()">
+
+                    <div class="username_form">
+                        <div><label for="username">User name</label></div>
+                        <div><input type="text" name="username" id="username"></div>
+                        <div class="error" id="username_error"></div>
+                    </div>
+
+                    <div class="email_form">
+                        <div><label for="email">Email address</label></div>
+                        <div><input type="email" name="email" id="email"></div>
+                        <div class="error" id="email_error"></div>
+                    </div>
+
+                    <div class="password_form">
+                        <div>
+                            <label for="password">Password</label>
+                        </div>
+                        <div><input type="password" name="password" id="password"></div>
+                        <div class="error" id="password_error"></div>
+                        <div>
+                            <p>Use 8 or more characters with a mix of letters, numbers & symbols</p>
+                        </div>
+                    </div>
+
+                    <div class="terms_policy">
+                        <p>By creating an account, you agree to our <br><a href="#">Terms of Use</a> and <a
+                                href="#">Privacy
+                                Policy</a></p>
+                    </div>
+
+                    <div class="main_btn">
+                        <button id="create_btn">Create an account</button>
+                    </div>
+
+                </form>
+                <!-- Form ends here -->
+
+
+
+                <div class="log_in">
+                    <p>Already have an ccount? <a href="#">Sign in</a></p>
+                </div>
+
+                <div class="github">
+                    <a href="https://github.com/aakash-webdev"><i class="fa-brands fa-github"></i>
+                        <p>- Hand Coded by <span>Aakash Peshavaria</span></p>
+                    </a>
+                </div>
+
+                <!-------------- Right Part ends here -------------->
+
+            </div>
+        </div>
+    </main>
+    <!-- Main ends here -->
+
+    <!--===== JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
